@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Markdown Master — Support</title>
+  <meta name="description"
+    content="Answers to common questions about Markdown Master, the Markdown reader and editor for iPhone, iPad and Mac." />
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#232326" media="(prefers-color-scheme: dark)" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="stylesheet" href="assets/site.css" />
+</head>
+
+<body>
+  <header class="bar">
+    <div class="bar-inner">
+      <a class="brand" href="marketing.html"><img src="assets/icon.png" alt="" /><span>Markdown Master</span></a>
+      <nav class="nav" aria-label="Site">
+        <a href="marketing.html">Overview</a>
+        <a href="support.html" aria-current="page">Support</a>
+        <a href="privacy-policy.html">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <div class="doc">
+      <div class="doc-tab" aria-hidden="true">
+        <svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.5"
+          stroke-linejoin="round">
+          <path d="M3.5 1.8h6l3 3v9.4h-9z" />
+        </svg>
+        support.md
+      </div>
+      <div class="doc-body">
+        <div class="doc-gutter" aria-hidden="true">1
+2
+3
+4</div>
+        <div class="doc-main">
+          <img src="assets/icon.png" width="76" height="76" alt="Markdown Master app icon" />
+          <div>
+            <h1><span class="md" aria-hidden="true">#</span>Markdown Master Support</h1>
+            <p>A Markdown reader and editor for iPhone, iPad and Mac. Answers to common questions are below; if
+              yours is not here, <a href="#contact">write to us</a>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <ul class="toc">
+        <li><a href="#what">What is Markdown Master?</a></li>
+        <li><a href="#open">How do I open or create a document?</a></li>
+        <li><a href="#modes">Preview, source, or both?</a></li>
+        <li><a href="#syntax">Which Markdown does it understand?</a></li>
+        <li><a href="#outline">How do I find my way in a long document?</a></li>
+        <li><a href="#images">Why are images missing from the preview?</a></li>
+        <li><a href="#look">How do I change how the preview looks?</a></li>
+        <li><a href="#editor">What does the editor do for me?</a></li>
+        <li><a href="#tasks">Can I tick tasks without editing?</a></li>
+        <li><a href="#find">Find and replace</a></li>
+        <li><a href="#palette">The command palette</a></li>
+        <li><a href="#export">Export, print and copy</a></li>
+        <li><a href="#files">Where are my files stored?</a></li>
+        <li><a href="#default">Make it the default app on Mac</a></li>
+        <li><a href="#quicklook">Quick Look previews</a></li>
+        <li><a href="#encodings">Which files and encodings does it open?</a></li>
+        <li><a href="#settings">Settings and themes</a></li>
+        <li><a href="#language">Can I change the language?</a></li>
+        <li><a href="#keyboard">Keyboard shortcuts</a></li>
+        <li><a href="#offline">Does it need an internet connection?</a></li>
+        <li><a href="#requirements">System requirements</a></li>
+        <li><a href="#contact">Contact and feedback</a></li>
+      </ul>
+    </div>
+
+    <h2 class="label">Getting started</h2>
+
+    <div class="card" id="what">
+      <h3>What is Markdown Master?</h3>
+      <p>
+        A reader and editor for Markdown files. Open a <code>.md</code> file and it is shown formatted, the way it
+        was meant to look: headings, tables, task lists, code and callouts. Switch to the source to fix a typo,
+        or put source and preview side by side and write. When the text has to leave the device, export a PDF or
+        an HTML file. Everything you open and save is an ordinary text file — there is no library to import into
+        and no account to create.
+      </p>
+    </div>
+
+    <div class="card" id="open">
+      <h3>How do I open or create a document?</h3>
+      <p>
+        On iPhone and iPad, the app opens with the document browser: choose a file there, or tap
+        <strong>New document</strong>. You can also open a <code>.md</code> file straight from the Files app. On
+        Mac, double-click a file in Finder, or use File → Open and File → New.
+      </p>
+      <p>
+        A new, empty document opens ready for writing. Any other document opens in the mode chosen under
+        <strong>Open files in</strong> in Settings → General — the preview by default.
+      </p>
+    </div>
+
+    <div class="card" id="modes">
+      <h3>Preview, source, or both?</h3>
+      <p>
+        The same file is shown three ways. <strong>Preview</strong> is the formatted document,
+        <strong>Source</strong> is the Markdown text with highlighting, and <strong>Both</strong> puts them side by
+        side, with the preview scrolling along as you move through the source.
+      </p>
+      <p>
+        On Mac the three are in the segmented control in the toolbar, or <kbd>⌘1</kbd>, <kbd>⌘2</kbd> and
+        <kbd>⌘3</kbd>. On iPhone and iPad they are at the bottom right of the window and in the
+        <strong>“…”</strong> menu. Side by side needs width, so iPhone offers Preview and Source.
+      </p>
+    </div>
+
+    <div class="card" id="syntax">
+      <h3>Which Markdown does it understand?</h3>
+      <p>
+        Standard Markdown with the widely used extensions: tables with column alignment, task lists,
+        strikethrough, automatic links, footnotes, callouts (<code>&gt; [!NOTE]</code>, <code>[!TIP]</code>,
+        <code>[!IMPORTANT]</code>, <code>[!WARNING]</code>, <code>[!CAUTION]</code>), front matter at the top of the
+        file, and inline HTML such as <code>&lt;details&gt;</code>. Code blocks are highlighted for more than twenty
+        programming languages.
+      </p>
+      <p>
+        The built-in <strong>Markdown Guide</strong> shows every construct with its markup and its result. On Mac
+        it is in the Help menu (<kbd>⇧⌘/</kbd>); on iPhone and iPad, in the <strong>“…”</strong> menu.
+      </p>
+    </div>
+
+    <h2 class="label">Reading</h2>
+
+    <div class="card" id="outline">
+      <h3>How do I find my way in a long document?</h3>
+      <ul>
+        <li><strong>The outline</strong> lists every heading and highlights the section you are in; tap one to jump
+          there, or filter the list by typing. On Mac and iPad it is a sidebar (<kbd>⌥⌘O</kbd> on Mac); on iPhone it
+          opens from the list button at the top.</li>
+        <li><strong>Links inside the document</strong> work: a link to <code>#a-heading</code> scrolls to that
+          section, and links in a README's table of contents behave as you would expect. Links to websites open in
+          your browser.</li>
+        <li><strong>The command palette</strong> jumps to any heading by a few letters of its name — see
+          <a href="#palette">below</a>.</li>
+      </ul>
+    </div>
+
+    <div class="card" id="images">
+      <h3>Why are images missing from the preview?</h3>
+      <p>
+        Apps on Apple platforms may read only the files you give them. When you open a document, the app may read
+        that file — but not the pictures stored next to it. If a document refers to such images, a strip above the
+        preview says so: tap <strong>Show Images…</strong>, choose the folder that holds the document, and the
+        images appear. The app remembers that folder, so documents from it or from its subfolders show their images
+        from then on.
+      </p>
+      <p>
+        Images given by a web address (<code>https://…</code>) are loaded from the internet and need a connection.
+      </p>
+    </div>
+
+    <div class="card" id="look">
+      <h3>How do I change how the preview looks?</h3>
+      <p>
+        In Settings → Appearance: the theme, the typeface (system, serif or monospaced), the text size, the line
+        width and whether code blocks are highlighted. On Mac, <kbd>⌘+</kbd>, <kbd>⌘−</kbd> and <kbd>⌘0</kbd>
+        change the text size directly. The status bar at the bottom shows the word count, the character count and
+        the reading time.
+      </p>
+    </div>
+
+    <h2 class="label">Writing</h2>
+
+    <div class="card" id="editor">
+      <h3>What does the editor do for me?</h3>
+      <ul>
+        <li><strong>Highlighting</strong> of headings, emphasis, code, links, lists, quotes, tables and front
+          matter. On Mac the source has line numbers, and the status bar shows the caret's line and column.</li>
+        <li><strong>Lists continue themselves.</strong> Return starts the next item — numbers go up, tasks start
+          unchecked — and Return on an empty item ends the list. Tab and Shift-Tab nest and un-nest an item.</li>
+        <li><strong>Formatting commands</strong> are in the Format menu and in the formatting bar above the
+          keyboard on iPhone and iPad. Applying a style a second time removes it.</li>
+        <li><strong>Spelling</strong> can be checked as you type: Settings → Editing → Check spelling.</li>
+      </ul>
+    </div>
+
+    <div class="card" id="tasks">
+      <h3>Can I tick tasks without editing?</h3>
+      <p>
+        Yes. Tap a checkbox in the preview and the app changes <code>[ ]</code> to <code>[x]</code> in the file for
+        you. It is a normal edit: undo takes it back.
+      </p>
+    </div>
+
+    <div class="card" id="find">
+      <h3>Find and replace</h3>
+      <p>
+        <kbd>⌘F</kbd> opens the find bar (on iPhone and iPad it is also in the <strong>“…”</strong> menu), and every
+        match is highlighted. Return or <kbd>⌘G</kbd> goes to the next match, <kbd>⇧⌘G</kbd> to the previous one,
+        and <strong>Aa</strong> makes the search case-sensitive.
+      </p>
+      <p>
+        In the preview the app searches the text as you see it. Replacing works in the source: switch to Source or
+        Both, then press <kbd>⌥⌘F</kbd> or open the replace field with the arrow at the left of the find bar.
+        <strong>Replace All</strong> is a single step, so one undo brings everything back.
+      </p>
+    </div>
+
+    <div class="card" id="palette">
+      <h3>The command palette</h3>
+      <p>
+        Press <kbd>⌘K</kbd> (on iPhone and iPad, choose <strong>Command Palette</strong> in the
+        <strong>“…”</strong> menu) and type a few letters. The palette finds every command — modes, find, export,
+        themes, typeface, language and more — and every heading of the document. It is forgiving: letters may be
+        scattered, and a word typed in the wrong keyboard layout is still found.
+      </p>
+    </div>
+
+    <h2 class="label">Files and export</h2>
+
+    <div class="card" id="export">
+      <h3>Export, print and copy</h3>
+      <p>
+        On Mac use the <strong>Export</strong> button in the toolbar; on iPhone and iPad, <strong>Export</strong> in
+        the <strong>“…”</strong> menu.
+      </p>
+      <ul>
+        <li><strong>Export as PDF…</strong> lays the document out on A4 or US Letter pages with page numbers. Page
+          breaks never cut through a line of text or a table row, and links still work.</li>
+        <li><strong>Export as HTML…</strong> writes a single self-contained file with the styles inside.</li>
+        <li><strong>Print…</strong> (<kbd>⌘P</kbd>), <strong>Copy as HTML</strong> and <strong>Copy
+          Markdown</strong>.</li>
+      </ul>
+      <p>
+        Exports use the light Daylight theme, so paper stays white. To export in the theme you are using, turn off
+        <strong>Use the light theme</strong> in Settings → Export, where you also choose the paper size.
+      </p>
+    </div>
+
+    <div class="card" id="files">
+      <h3>Where are my files stored?</h3>
+      <p>
+        Wherever you save them. Markdown Master is a standard document-based app: it uses the system's file
+        browser — Files on iPhone and iPad, Finder on Mac — including iCloud Drive and any other provider you have
+        connected. On iPhone and iPad, the app's own folder is under <strong>Browse → On My iPhone</strong> (or
+        <strong>On My iPad</strong>) <strong>→ MD Master</strong>. Changes are saved automatically.
+      </p>
+    </div>
+
+    <div class="card" id="default">
+      <h3>Make it the default app on Mac</h3>
+      <p>
+        Open Settings → General: under <strong>Markdown files</strong> it shows which app opens <code>.md</code>
+        files, and <strong>Make Default</strong> switches them to Markdown Master. Or select a file in Finder, press
+        <kbd>⌘I</kbd>, choose Markdown Master under <strong>Open with</strong> and click <strong>Change
+        All</strong>.
+      </p>
+    </div>
+
+    <div class="card" id="quicklook">
+      <h3>Quick Look previews</h3>
+      <p>
+        The app comes with a Quick Look extension: select a Markdown file in Finder and press Space, or preview it
+        in Files, and it is shown formatted, with the same rendering as in the app. The preview is light or dark to
+        match your system. If you still see plain text, open Markdown Master once so the system registers the
+        extension, then try again.
+      </p>
+    </div>
+
+    <div class="card" id="encodings">
+      <h3>Which files and encodings does it open?</h3>
+      <p>
+        Markdown files with the extensions <code>.md</code>, <code>.markdown</code>, <code>.mdown</code>,
+        <code>.mkd</code>, <code>.mkdn</code>, <code>.mdwn</code>, <code>.mdtxt</code> and <code>.mdtext</code>;
+        on Mac, any plain text file through <strong>Open With</strong>. Text in UTF-8 (with or without a byte order
+        mark), UTF-16, Windows-1251 and Latin-1 opens correctly, and line endings from any system are understood.
+        Saving always writes UTF-8.
+      </p>
+    </div>
+
+    <h2 class="label">Settings</h2>
+
+    <div class="card" id="settings">
+      <h3>Settings and themes</h3>
+      <p>
+        On Mac, choose Settings in the app menu or press <kbd>⌘,</kbd>; on iPhone and iPad, Settings is at the
+        bottom of the <strong>“…”</strong> menu. It has five sections: <strong>General</strong> (language, the mode
+        documents open in, the default app on Mac), <strong>Appearance</strong> (theme and preview typography),
+        <strong>Editing</strong> (font size, line numbers, spelling, list continuation and scrolling together),
+        <strong>Export</strong> (paper size and theme) and <strong>About</strong>.
+      </p>
+      <p>
+        There are four themes: <strong>Graphite</strong>, the default, <strong>Midnight</strong>, <strong>Amber
+        CRT</strong> and <strong>Daylight</strong>, the light one. A theme colours the whole window — the
+        interface, the source and the preview. Themes do not follow the system's light or dark mode: the one you
+        pick is the one you get.
+      </p>
+    </div>
+
+    <div class="card" id="language">
+      <h3>Can I change the language?</h3>
+      <p>
+        Yes. The app is available in English, German, French, Ukrainian, Spanish, Japanese and Portuguese. By
+        default it follows your device language (falling back to English); you can change it any time in Settings →
+        General, and it applies immediately, without a restart.
+      </p>
+    </div>
+
+    <div class="card" id="keyboard">
+      <h3>Keyboard shortcuts</h3>
+      <p>On Mac, and on iPad with a hardware keyboard:</p>
+      <table class="keys">
+        <tr><td><kbd>⌘1</kbd> <kbd>⌘2</kbd> <kbd>⌘3</kbd></td><td>Preview, Source, Both</td></tr>
+        <tr><td><kbd>⌘K</kbd></td><td>Command palette</td></tr>
+        <tr><td><kbd>⌥⌘O</kbd></td><td>Outline</td></tr>
+        <tr><td><kbd>⌘F</kbd> <kbd>⌥⌘F</kbd></td><td>Find, Find and Replace</td></tr>
+        <tr><td><kbd>⌘G</kbd> <kbd>⇧⌘G</kbd></td><td>Next and previous match</td></tr>
+        <tr><td><kbd>⌘+</kbd> <kbd>⌘−</kbd> <kbd>⌘0</kbd></td><td>Text size</td></tr>
+        <tr><td><kbd>⌘B</kbd> <kbd>⌘I</kbd> <kbd>⌘E</kbd> <kbd>⇧⌘X</kbd></td><td>Bold, italic, code, strikethrough</td></tr>
+        <tr><td><kbd>⌥⌘K</kbd></td><td>Link</td></tr>
+        <tr><td><kbd>⌥⌘1</kbd> … <kbd>⌥⌘6</kbd></td><td>Heading 1 to 6</td></tr>
+        <tr><td><kbd>⇧⌘8</kbd> <kbd>⇧⌘7</kbd> <kbd>⇧⌘9</kbd></td><td>Bulleted, numbered and task list</td></tr>
+        <tr><td><kbd>⌘'</kbd></td><td>Quote</td></tr>
+        <tr><td><kbd>⌥⌘]</kbd> <kbd>⌥⌘[</kbd></td><td>Indent, outdent</td></tr>
+        <tr><td><kbd>⌘P</kbd></td><td>Print</td></tr>
+        <tr><td><kbd>⇧⌘/</kbd></td><td>Markdown Guide</td></tr>
+      </table>
+    </div>
+
+    <div class="card" id="offline">
+      <h3>Does it need an internet connection?</h3>
+      <p>
+        No. Reading, editing, searching and exporting all happen on your device. The only thing that goes online is
+        an image that a document loads from a web address.
+      </p>
+    </div>
+
+    <div class="card" id="requirements">
+      <h3>System requirements</h3>
+      <p>
+        iPhone with iOS 18 or later, iPad with iPadOS 18 or later, or a Mac with macOS 15 or later.
+      </p>
+    </div>
+
+    <div class="card callout" id="contact">
+      <h2>
+        <svg viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5"
+          stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M5.6 10.2C4.4 9.3 3.7 8 3.7 6.6a4.3 4.3 0 0 1 8.6 0c0 1.4-.7 2.7-1.9 3.6v1.3H5.6z" />
+          <path d="M6.2 13.6h3.6" />
+        </svg>
+        Contact and feedback
+      </h2>
+      <p>
+        Didn't find your answer, found a document that renders oddly, or miss a feature? Write to us — we read
+        everything, and a sample <code>.md</code> file attached to your message helps a lot.<br />
+        <strong>Email:</strong>
+        <a href="mailto:volodymyr.sichka@gmail.com?subject=Markdown%20Master%20support">volodymyr.sichka@gmail.com</a>
+      </p>
+    </div>
+  </main>
+
+  <footer class="foot">
+    <nav aria-label="Footer">
+      <a href="marketing.html">Overview</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+    </nav>
+    <p class="motto">Every document starts with a single <span class="md">#</span></p>
+    <p>© 2026 Volodymyr Sichka</p>
+  </footer>
+</body>
+
+</html>
